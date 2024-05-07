@@ -18,13 +18,13 @@ Have fun creating your portfolio on this template!!! -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
     <!-- Title: add your Portfolio websites's title here -->
-    <title>[Your name here] | Developer</title>
+    <title>Josh Coss | Unity Developer</title>
 
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="ChrisGainesVEVO, Josh Coss, Unity, C#, Game, programmer, video game" />
 
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Josh Coss | Unity Developer" />
 
     <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
     <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
@@ -37,10 +37,10 @@ Have fun creating your portfolio on this template!!! -->
     <!-- Fill content with the URL of this portfolio you'll host -->
     <meta property="og:url" content="https://devfolio.js.org/" />
     <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="[Your name here] | Developer" />
+    <meta property="og:title" content="Josh Coss | Unity Developer" />
     <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
     <meta property="og:description" content="Made using DevFolio Template" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail
       so that a thumbnail image of your portfolio is shown while shared on other platform -->
     <meta
       property="og:image"
@@ -82,36 +82,19 @@ Have fun creating your portfolio on this template!!! -->
       type="text/javascript"
       src="./javascript/scrollveal.js"
     ></script>
-
-    <!-- Remove Google Analytics once you have your portfolio website set-up -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag("js", new Date())
-
-      gtag("config", "UA-122228201-4")
-    </script>
-    <!-- End of Google Analytics -->
   </head>
   <body>
     <!-- Hero Section -->
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Your Name</span>
+          Hi, my name is <span class="text-color-main name">Josh Coss</span>,
           <br />
-          I'm the Unknown Developer.
+          Unity Developer.
         </h1>
-        <p class="hero-cta">
+        <!-- <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
-        </p>
+        </p> -->
       </section>
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
         <div class="scroll-down"></div
@@ -135,19 +118,13 @@ Have fun creating your portfolio on this template!!! -->
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
+              I am a passionate Unity Developer with a love for creating immersive gaming experiences. I've spent a lifetime loving games, and want to create opportunities for others to experience the same joy I feel when playing them.
             </p>
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
+              I am proficient in both the Unity engine and C#, with skills in writing maintainable, scalable code. I have skills in collaboration, creative problem solving, and communication.
             </p>
             <span class="about-wrapper__cta">
-              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+              <a href="./assets/Josh Coss - Resume.pdf" class="cta-btn cta-btn--resume" target="_blank">View Resume</a>
             </span>
           </div>
         </div>
@@ -164,23 +141,23 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Shadow of the Sanitorium</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Shadow of the Sanitorium is a 2D roguelike prototype focussing on procedural generation. My primary focus on this project was player, enemy, and stat systems.
+              </p>
+              <p class="project-wrapper__text-info">
+                Player and enemy states were both implemented using a State pattern. Enemy stat and collectable item data were stored using ScriptableObjects, allowing the addition of new objects to be added quickly.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://yllwmango.itch.io/shadows-of-the-sanatorium"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
+                  >itch.io</a
                 >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
+                <a href="https://github.com/josephlatina/DungeonCrawler" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects"
+                  >github</a
                 >
               </div>
             </div>
@@ -189,11 +166,11 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/SOS.png"
                     class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
+                    alt="Shadow of the Sanitorium title screen"
+                    width="1277"
+                    height="709"
                   />
                 </div>
               </a>
@@ -204,12 +181,13 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">OverenLUMBERed</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                OverenLUMBERed is an incremental game. As the player gains more money from chopping down trees, they can upgrade their equipment and  hire employees to help with their work. After a while, the spawn rate of the trees slows to a halt, eventually putting the game in an unwinnable state.
+              </p>
+              <p class="project-wrapper__text-info">
+                Winner of the <a href="https://gamesjobfair.com/programming-challenges-unrealengine-unity#rec553225176"
+                target="_blank">Games Job Fair Spring 2023 - Unity Programming Challenge</a>.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -217,10 +195,9 @@ Have fun creating your portfolio on this template!!! -->
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
+                  >itch.io</a>
+                <a href="#" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects"
+                  >github</a
                 >
               </div>
             </div>
@@ -229,11 +206,11 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/overenlumbered.png"
                     class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
+                    alt="OverenLUMBERed title screen"
+                    width="1216"
+                    height="681"
                   />
                 </div>
               </a>
@@ -244,23 +221,22 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Your Kickstarter Survives</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Your Kickstarter Survives is a work in progress based on the mechanics of the popular game <i>Vampire Survivors</i> and the podcast <i>Your Kickstarter Sucks</i>.
+              </p>
+              <p class="project-wrapper__text-info">
+                This project relies heavily on ScriptableObjects for weapon and enemy data, as well as utilizes object pooling in order to maintain performance with such a large number of enemies used at the same time.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://cgvideogames.itch.io/your-kickstarter-survives"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
+                  >itch.io</a>
+                <a href="https://github.com/joshualeecoss/your-kickstarter-survives" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects"
+                  >github</a
                 >
               </div>
             </div>
@@ -269,11 +245,11 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/yks.png"
                     class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
+                    alt="Your Kickstarter Survives gameplay image"
+                    width="1146"
+                    height="645"
                   />
                 </div>
               </a>
@@ -290,8 +266,8 @@ Have fun creating your portfolio on this template!!! -->
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+          <p class="contact-wrapper__text">Have questions or want to discuss opportunities? Contact me and let's connect!</p>
+          <a href="mailto:josh.coss@gmail.com" class="cta-btn cta-btn--resume" >Send me an email!</a>
         </div>
       </div>
     </section>
@@ -305,31 +281,7 @@ Have fun creating your portfolio on this template!!! -->
         </a>
         <div class="social-links">
           <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa-brands fa-codepen"></i>
-          </a>
-          <a
-            href="#!"
+            href="https://www.linkedin.com/in/joshua-coss-a693a91ba/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="linkedin"
@@ -337,7 +289,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="#!"
+            href="https://github.com/joshualeecoss/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="github"
